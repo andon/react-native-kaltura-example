@@ -18,3 +18,5 @@ react-native run-ios
 
 ### Issues
 The major problem is the player's button in the bottom-right corner. Is there a way to disable of this button (from the protocol methods of the player)? Also, clicking on the button presents Modal View Controller which distrupts react-native view hierarchy and the player is only reposive in the frame part of the wrapped view. The other parts (example the bottom player controls that are now in full-screen) are not responsive. This applies to all actions of the player that display full screen (example share functionality).
+
+![alt text](https://github.com/andon/react-native-kaltura-example/raw/master/kaltura-issue.gif "React Native and Kaltura")
