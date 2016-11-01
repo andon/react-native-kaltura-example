@@ -39,8 +39,10 @@ RCT_EXPORT_MODULE()
 //  [self.player loadPlayerIntoViewController:self];
 //  [self.view addSubview:_player.view];
 
-  self.player.view.frame = (CGRect){0, 0, 320, 180};
-  return self.player.view;
+  UIView *wrapperView = [UIView new];
+  self.player.view.frame = wrapperView.frame;
+  [wrapperView addSubview:self.player.view];
+  return wrapperView;
 }
 
 @end
