@@ -25,6 +25,8 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		842D57D61DC8A0D20060119D /* libKALTURAPlayerSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 842D57B21DC8A03A0060119D /* libKALTURAPlayerSDK.a */; };
 		842D57D71DC8A1C70060119D /* KALTURAPlayerSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 842D57B41DC8A03A0060119D /* KALTURAPlayerSDKResources.bundle */; };
+		842D57DA1DC8A4B00060119D /* RCTKalturaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 842D57D91DC8A4B00060119D /* RCTKalturaManager.m */; };
+		842D57DB1DC8A4B00060119D /* RCTKalturaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 842D57D91DC8A4B00060119D /* RCTKalturaManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -200,6 +202,8 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		842D57AA1DC8A03A0060119D /* KALTURAPlayerSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KALTURAPlayerSDK.xcodeproj; path = "../kaltura/player-sdk-native-ios/KALTURAPlayerSDK.xcodeproj"; sourceTree = "<group>"; };
+		842D57D81DC8A42A0060119D /* RCTKalturaManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTKalturaManager.h; path = RNKalturaExample/RCTKalturaManager.h; sourceTree = "<group>"; };
+		842D57D91DC8A4B00060119D /* RCTKalturaManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTKalturaManager.m; path = RNKalturaExample/RCTKalturaManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -319,6 +323,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				842D57D81DC8A42A0060119D /* RCTKalturaManager.h */,
+				842D57D91DC8A4B00060119D /* RCTKalturaManager.m */,
 			);
 			name = RNKalturaExample;
 			sourceTree = "<group>";
@@ -696,6 +702,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842D57DB1DC8A4B00060119D /* RCTKalturaManager.m in Sources */,
 				00E356F31AD99517003FC87E /* RNKalturaExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -705,6 +712,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				842D57DA1DC8A4B00060119D /* RCTKalturaManager.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
